@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 230px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar {
+    background-color: antiquewhite;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    color: brown;
+    display: inline;
+    padding-right: 20px;
+}
+
+.navbar h2 {
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.item {
+    padding: 50px;
+}
+
+.about {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
